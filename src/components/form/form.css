@@ -1,0 +1,57 @@
+.form {
+  h3 {
+    height: 60px;
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #b9cbe0;
+  }
+  input {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 4px;
+    background-color: #d5e0ec;
+    border: 1px;
+  }
+
+  select {
+    width: 240px;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 4px;
+    background-color: #d5e0ec;
+    border: 1px;
+  }
+
+  label {
+    margin-left: 10px;
+    display: block;
+  }
+}
+.form__section {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+  padding: 20px 50px;
+  background-color: #f4f7fa;
+}
+
+.form__sectionQuestions {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form__question {
+  display: block;
+  margin: 20px;
+  margin-left: 0px;
+}
+
+.form__buttons {
+  display: flex;
+  justify-content: space-between;
+}

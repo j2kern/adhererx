@@ -1,0 +1,11 @@
+.website {
+  background-color: white;
+}
+
+.website-container {
+  max-width: 1100px;
+  display: block;
+  margin: auto;
+  padding: 3vh 6vw;
+  font-size: 18px;
+}

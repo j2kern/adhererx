@@ -1,0 +1,89 @@
+/* Global */
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 600;
+  /*color: #3a9696ff;*/
+}
+
+/* AdherencePage */
+
+.adherencepage__info {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  line-height: 8px;
+}
+
+.adherencepage__info .adherencepage__info-display {
+  border-bottom: 1.5px solid #e7e7e7;
+  width: 100%;
+}
+
+.adherencepage__info .adherencepage__bold-info {
+  font-weight: 600;
+}
+
+.adherencepage__summaryadherence {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  /*background-color: #e7e7e7;*/
+  /*border: 3px solid #e7e7e7;*/
+}
+
+.adherencepage__dashboard {
+  display: grid;
+  gap: 60px;
+}
+
+.adherencepage__first-row {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 25px;
+}
+
+.adherencepage__widget {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.adherencepage__widget .adherencepage__widget-title {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 5px;
+}
+
+.adherencepage__widget-content {
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  padding: 40px 30px;
+  flex-grow: 1;
+  background-color: white;
+  filter: drop-shadow(0 0 0.4rem rgba(19, 19, 19, 0.06));
+}
+
+.adherencepage__warning-message {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  justify-content: center;
+}
+
+.bold {
+  font-weight: bold;
+}

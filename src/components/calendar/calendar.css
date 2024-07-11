@@ -1,0 +1,59 @@
+.calendar {
+  display: grid;
+  font-size: 14px;
+}
+
+.calendar__eventlog {
+  height: 100%;
+  padding: 10px 20px;
+}
+
+/* Full Calendar CSS Overrides*/
+.fc .fc-col-header-cell-cushion {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.fc .fc-daygrid-event {
+  border-radius: 10px;
+}
+.fc .fc-daygrid-event {
+  border-radius: 10px;
+}
+
+/* Full Calendar Default CSS below:*/
+:root {
+  --fc-small-font-size: 0.85em;
+  --fc-page-bg-color: #fff;
+  --fc-neutral-bg-color: rgba(208, 208, 208, 0.3);
+  --fc-neutral-text-color: #808080;
+  --fc-border-color: #ededed;
+
+  --fc-button-text-color: #282828;
+  --fc-button-bg-color: #fff;
+  --fc-button-border-color: #fff;
+  --fc-button-hover-bg-color: #fff;
+  --fc-button-hover-border-color: #fff;
+  --fc-button-active-bg-color: #fff;
+  --fc-button-active-border-color: #fff;
+
+  --fc-event-bg-color: #3788d8;
+  --fc-event-border: #3788d8;
+  --fc-event-border-radius: 10px;
+  --fc-event-text-color: #fff;
+  --fc-event-selected-overlay-color: rgba(0, 0, 0, 0.25);
+
+  --fc-more-link-bg-color: #d0d0d0;
+  --fc-more-link-text-color: inherit;
+
+  --fc-event-resizer-thickness: 8px;
+  --fc-event-resizer-dot-total-width: 8px;
+  --fc-event-resizer-dot-border-width: 1px;
+
+  --fc-non-business-color: rgba(215, 215, 215, 0.3);
+  --fc-bg-event-color: rgb(143, 223, 130);
+  --fc-bg-event-opacity: 0.3;
+  --fc-highlight-color: rgba(188, 232, 241, 0.3);
+  --fc-today-bg-color: rgba(255, 220, 40, 0.15);
+  --fc-now-indicator-color: red;
+}

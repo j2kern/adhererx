@@ -1,0 +1,63 @@
+.patientlist__search {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-family: "Poppins";
+  border-radius: 10px;
+  border: 1.5px solid lightgray;
+  width: 100%;
+}
+
+.table {
+  text-align: left;
+  width: 100%;
+  padding-top: 20px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-top: 40px;
+}
+
+.table__header th {
+  font-weight: 700;
+  font-size: 16px;
+  height: 50px;
+}
+
+.table__data th {
+  font-size: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  height: 40px;
+  border-top: 1pt solid #ebebeb;
+}
+
+.table__data:last-child {
+  border-bottom: 1pt solid #ebebeb;
+}
+
+.table__data.selected {
+  background-color: #fdfdfd;
+}
+
+.table__data:hover {
+  cursor: pointer;
+  background-color: #fdfdfd;
+}
+
+.table_medication-list {
+  display: flex;
+  align-items: center;
+}
+
+.table_medication-list .table_medication {
+  font-size: 14px;
+  background-color: #f5f5f5;
+  padding: 4px 10px;
+  height: 50%;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+.table__adherence-rate {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

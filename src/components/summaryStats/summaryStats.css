@@ -1,0 +1,30 @@
+.summarystats {
+  display: grid;
+  justify-content: center;
+  gap: 40px;
+}
+
+.summarystats__subheading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.summarystats__percentage {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.summarystats__footnote {
+  font-size: 11.5px;
+  margin-top: 30px;
+}
+
+.summarystats__circle {
+  width: 9px;
+  height: 9px;
+  border-radius: 50px;
+}
