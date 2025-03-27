@@ -6,8 +6,8 @@ This was an engineering capstone project focused on addressing the issue of medi
 
 ## Features
 
-- Hardware Component: Detects medication intake events using photoresistors and a custom sensor array interfaced with an Arduino MKR WiFi 1010 board.
-- Software Component: A web application developed using React.js and Node.js for front-end and back-end, respectively, displaying summarized patient data stored in a MySQL database.
+- Hardware Component (Pill Container): Detects medication intake events using photoresistors and a custom sensor array interfaced with an Arduino MKR WiFi 1010 board.
+- Software Component (User Interface): A web application developed using React.js and Node.js for front-end and back-end, respectively, displaying summarized patient data stored in a MySQL database.
 
 ![System Diagram](./public/system-diagram.png)
 
@@ -31,6 +31,10 @@ This was an engineering capstone project focused on addressing the issue of medi
 
 - Pharmacist Dashboard: Displays patient adherence data, including time and frequency of medication intake.
 - Data Analysis: Advanced SQL queries analyze intake patterns; the interface provides visual summaries and detailed adherence reports.
+
+## How this fits into pharmacist workflow
+
+![User Flow](./public/user-flow.png)
 
 ## System Architecture Diagram
 
