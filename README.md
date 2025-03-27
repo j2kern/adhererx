@@ -6,11 +6,14 @@ This was an engineering capstone project focused on addressing the issue of medi
 
 ## Features
 
-Hardware Component: Detects medication intake events using photoresistors and a custom sensor array interfaced with an Arduino MKR WiFi 1010 board.
-Software Component: A web application developed using React.js and Node.js for front-end and back-end, respectively, displaying summarized patient data stored in a MySQL database.
+- Hardware Component: Detects medication intake events using photoresistors and a custom sensor array interfaced with an Arduino MKR WiFi 1010 board.
+- Software Component: A web application developed using React.js and Node.js for front-end and back-end, respectively, displaying summarized patient data stored in a MySQL database.
+
+![System Diagram](./public/system-diagram.png)
 
 ## Tech Stack
 
+- UI Wireframing: Figma
 - Frontend: React, JavaScript, CSS
 - Backend: Node.js
 - Database: MySQL
