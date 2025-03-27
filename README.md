@@ -35,7 +35,3 @@ This was an engineering capstone project focused on addressing the issue of medi
 ## How this fits into pharmacist workflow
 
 ![User Flow](./public/user-flow.png)
-
-## System Architecture Diagram
-
-![Dependency Graph](./public/dependency-graph.png)
