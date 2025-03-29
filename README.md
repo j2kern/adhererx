@@ -1,6 +1,6 @@
 # AdhereRx
 
-This is the project repository for an Engineering Capstone project developed over three terms in the following courses: BME 362 Biomedical Engineering Design Workshop 1, BME 461 Biomedical Engineering Design Workshop 2, BME 462 Biomedical Engineering Design Workshop 3 (Faculty of Engineering, University of Waterloo). Our team, **"AdhereRx,"** focused on addressing medication non-adherence by creating a tool for pharmacists designed to provide data-driven insights, enabling more personalized patient support.
+This is the project repository for an Engineering Capstone project developed over three terms in the following courses: BME 362 Biomedical Engineering Design Workshop 1, BME 461 Biomedical Engineering Design Workshop 2, BME 462 Biomedical Engineering Design Workshop 3 (Faculty of Engineering, University of Waterloo). Our team, **"AdhereRx,"** focused on addressing medication non-adherence by creating a tool for pharmacists designed to provide data-driven insights, enabling more personalized patient support. **https://adhere-rx.web.app/**
 
 “A way to **address the need for quantitative medication intake data** to be used by **pharmacists** that allow them to **quickly identify non-adherent behaviours.**”
 
