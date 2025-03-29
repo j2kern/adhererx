@@ -1,13 +1,15 @@
 # AdhereRx
 
-This is the project repository for an Engineering Capstone project (Faculty of Engineering, University of Waterloo). Our team, "AdhereRx," focused on addressing medication non-adherence by creating a tool for pharmacists designed to provide data-driven insights, enabling more personalized patient support.
+This is the project repository for an Engineering Capstone project developed over three terms in the following courses: BME 362 Biomedical Engineering Design Workshop 1, BME 461 Biomedical Engineering Design Workshop 2, BME 462 Biomedical Engineering Design Workshop 3 (Faculty of Engineering, University of Waterloo). Our team, **"AdhereRx,"** focused on addressing medication non-adherence by creating a tool for pharmacists designed to provide data-driven insights, enabling more personalized patient support.
 
-“A way to address the need for quantitative medication intake data to be used by pharmacists that allow them to quickly identify non-adherent behaviours.”
+“A way to **address the need for quantitative medication intake data** to be used by **pharmacists** that allow them to **quickly identify non-adherent behaviours.**”
 
-Design: `Figma` <br />
-Languages/Tools used: `React.js`, `JavaScript`, `CSS`, `Node.js`,`MySQL`, <br />
-Cloud Technologies: `Arduino IoT Cloud API` <br />
-Hardware Technologies: `Arduino MKR WiFi 1010`, `Photoresistors`,
+**Technologies Used**
+
+- Design: `Figma` <br />
+- Languages/Tools used: `React.js`, `JavaScript`, `CSS`, `Node.js`,`MySQL`, <br />
+- Cloud Technologies: `Arduino IoT Cloud API` <br />
+- Hardware Technologies: `Arduino MKR WiFi 1010`, `Photoresistors`,
 
 ![Demo GIF](./public/demo.gif)
 
@@ -34,21 +36,22 @@ To address both user-needs we created a system with both a hardware and software
 - **Hardware Component (Pill Container):** Detects medication intake events using photoresistors and a custom sensor array interfaced with an Arduino MKR WiFi 1010 board.
 - **Software Component (User Interface):** A web application developed using React.js and Node.js for front-end and back-end, respectively, displaying summarized patient data stored in a MySQL database.
 
-![System Diagram](./public/system-diagram.png)
+## Data Analysis & Adherence Metrics
 
-## Key Components
+This module includes helper functions that process raw patient medication intake data and calculate summary adherence statistics, enabling pharmacists to easily interpret patient behavior and identify patterns in medication adherence.
 
-### Hardware
+The key objectives of this data analysis are to:
 
-- Pill Organizer: Integrates sensing technology to detect medication removal events.
-- Sensing Mechanism: Utilizes photoresistors configured with Arduino to track light changes indicating pill removal.
-
-### Software
-
-- Pharmacist Dashboard: Displays patient adherence data, including time and frequency of medication intake.
-- Data Analysis: Advanced SQL queries analyze intake patterns; the interface provides visual summaries and detailed adherence reports.
+- Categorize medication intake events (on time, early, late, missed)
+- Generate percentage summaries of adherence behaviors
+- Visualize trends in adherence by month and day of the week
+- Prepare data for clear, actionable display in the pharmacist-facing dashboard
 
 ## How this fits into pharmacist workflow
+
+Below is an example of how this technology could integrate into a pharmacist’s existing workflow. In this scenario, the pharmacist uses PropelRx, a pharmacy management system, to track patient medication adherence. Currently, adherence information is primarily based on the Medication Possession Ratio (MPR), which measures how consistently a patient refills their prescriptions. However, this system does not capture whether patients actually take their medications as prescribed.
+
+Our proposed solution introduces a new adherence metric based on pill removal data, collected through a custom pill container. This data would be incorporated into the pharmacist’s workflow via compliance preparation reports in PropelRx, providing a more accurate, behavior-based measure of adherence. By integrating this information, pharmacists can gain clearer insight into patient behavior and offer more personalized, informed consultations.
 
 ![User Flow](./public/user-flow.png)
 
